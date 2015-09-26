@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<generator uri="http://jekyllrb.com" version="2.5.3">Jekyll</generator>
+<link href="http://taiwei.me//feed.xml" rel="self" type="application/atom+xml" />
+<link href="http://taiwei.me//" rel="alternate" type="text/html" />
+<updated>2015-09-26T16:30:22+08:00</updated>
+<id>http://taiwei.me//</id>
+<subtitle>Welcome to Tai Wei&#39;s Blog</subtitle>
+<author>
+<name>Tai Wei</name>
+</author>
+<entry>
+<title>Example 2</title>
+<link href="http://taiwei.me//example/2014/09/11/example-2.html" rel="alternate" type="text/html" title="Example 2" />
+<published>2014-09-11T06:37:00+08:00</published>
+<updated>2014-09-11T06:37:00+08:00</updated>
+<id>http://taiwei.me//example/2014/09/11/example-2</id>
+<content type="html" xml:base="http://taiwei.me//example/2014/09/11/example-2.html">&lt;p&gt;&lt;strong&gt;Basic&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Neque porro &lt;em&gt;quisquam&lt;/em&gt; est, qui &lt;strong&gt;dolorem&lt;/strong&gt; ipsum, quia &lt;strong&gt;&lt;em&gt;dolor&lt;/em&gt;&lt;/strong&gt; sit, amet, &lt;a href=&quot;http://cjdns.info/&quot;&gt;consectetur&lt;/a&gt;, adipisci velit.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;lorem&lt;/li&gt;
+  &lt;li&gt;ipsum&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;dolor&lt;/li&gt;
+  &lt;li&gt;sit&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;First Header&lt;/th&gt;
+      &lt;th&gt;Second Header&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Table Cell&lt;/td&gt;
+      &lt;td&gt;Table Cell&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Blockquote&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;They who can give up essential liberty to obtain a little temporary safety, deserve neither liberty nor safety.&lt;/p&gt;
+
+  &lt;p&gt;&lt;em&gt;Benjamin Franklin&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;{% highlight c %}&lt;/p&gt;
+
+&lt;p&gt;static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocator* requestAlloc)
+{
+    struct Admin* admin = Identity_check((struct Admin*) vAdmin);
+    int64_t enabled = admin-&amp;gt;asyncEnabled;
+    Dict d = Dict_CONST(String_CONST(“asyncEnabled”), Int_OBJ(enabled), NULL);
+    Admin_sendMessage(&amp;amp;d, txid, admin);
+}&lt;/p&gt;
+
+&lt;p&gt;{% endhighlight %}&lt;/p&gt;
+
+</content>
+<summary>BasicNeque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit.  lorem  ipsum  dolor  sit</summary>
+</entry>
+<entry>
+<title>Example</title>
+<link href="http://taiwei.me//example/2014/09/11/example.html" rel="alternate" type="text/html" title="Example" />
+<published>2014-09-11T06:37:00+08:00</published>
+<updated>2014-09-11T06:37:00+08:00</updated>
+<id>http://taiwei.me//example/2014/09/11/example</id>
+<content type="html" xml:base="http://taiwei.me//example/2014/09/11/example.html">&lt;p&gt;&lt;strong&gt;Basic&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Neque porro &lt;em&gt;quisquam&lt;/em&gt; est, qui &lt;strong&gt;dolorem&lt;/strong&gt; ipsum, quia &lt;strong&gt;&lt;em&gt;dolor&lt;/em&gt;&lt;/strong&gt; sit, amet, &lt;a href=&quot;http://cjdns.info/&quot;&gt;consectetur&lt;/a&gt;, adipisci velit.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;lorem&lt;/li&gt;
+  &lt;li&gt;ipsum&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;dolor&lt;/li&gt;
+  &lt;li&gt;sit&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;First Header&lt;/th&gt;
+      &lt;th&gt;Second Header&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Table Cell&lt;/td&gt;
+      &lt;td&gt;Table Cell&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;&lt;strong&gt;Blockquote&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;They who can give up essential liberty to obtain a little temporary safety, deserve neither liberty nor safety.&lt;/p&gt;
+
+  &lt;p&gt;&lt;em&gt;Benjamin Franklin&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Code&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;{% highlight c %}&lt;/p&gt;
+
+&lt;p&gt;static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocator* requestAlloc)
+{
+    struct Admin* admin = Identity_check((struct Admin*) vAdmin);
+    int64_t enabled = admin-&amp;gt;asyncEnabled;
+    Dict d = Dict_CONST(String_CONST(“asyncEnabled”), Int_OBJ(enabled), NULL);
+    Admin_sendMessage(&amp;amp;d, txid, admin);
+}&lt;/p&gt;
+
+&lt;p&gt;{% endhighlight %}&lt;/p&gt;
+</content>
+<summary>BasicNeque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci velit.  lorem  ipsum  dolor  sit            First Header      Second Header                  Table Cell      Table Cell      Blockquote  They who can give up essential liberty to obtain a little temporary safety, deserve neither liberty nor safety.  Benjamin FranklinCode{% highlight c %}static void asyncEnabled(Dict* args, void* vAdmin, String* txid, struct Allocator* requestAlloc){    struct Admin* admin = Identity_check((struct Admin*) vAdmin);    int64_t enabled = admin-&amp;gt;asyncEnabled;    Dict d = Dict_CONST(String_CONST(“asyncEnabled”), Int_OBJ(enabled), NULL);    Admin_sendMessage(&amp;amp;d, txid, admin);}{% endhighlight %}</summary>
+</entry>
+</feed>

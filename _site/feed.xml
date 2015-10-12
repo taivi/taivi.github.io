@@ -1,14 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tai Wei&#39;s Blog</title>
-    <description>Welcome to my blog
-</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 11 Oct 2015 23:32:07 +0800</pubDate>
-    <lastBuildDate>Sun, 11 Oct 2015 23:32:07 +0800</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<generator uri="http://jekyllrb.com" version="2.5.3">Jekyll</generator>
+<link href="http://taiwei.me/feed.xml" rel="self" type="application/atom+xml" />
+<link href="http://taiwei.me/" rel="alternate" type="text/html" />
+<updated>2015-10-12T23:09:32+08:00</updated>
+<id>http://taiwei.me/</id>
+<subtitle>Really cool blog about Android article</subtitle>
+<author>
+<name>Tai Wei</name>
+</author>
+</feed>

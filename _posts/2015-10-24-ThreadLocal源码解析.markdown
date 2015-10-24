@@ -1,4 +1,7 @@
-#ThreadLocal
+---
+title:ThreadLocal
+date:2015年10月24日
+---
 
 
 ###SDK文档
@@ -16,39 +19,39 @@
 
 public class ThreadLocal<T> {
 
-	private static AtomicInteger hashCounter = new AtomicInteger(0);
+  private static AtomicInteger hashCounter = new AtomicInteger(0);
 	
-	private final int hash = hashCounter.getAndAdd(0x61c88647 * 2);
+  private final int hash = hashCounter.getAndAdd(0x61c88647 * 2);
 
-	public ThreadLocal() {}
+  public ThreadLocal() {}
 	
-	public T get() {
-					
-	}
+  public T get()	 {
+    			
+  }
 	
-	public void set(T value) {
-				
-	}
+  public void set(T value) {
+  			
+  }
 	
-	public void remove() {
+  public void remove() {
 						
-	}
+  }
 	
-	protected T initialValue() {
-		return null;
-	}
+  protected T initialValue() {
+    return null;
+  }
 	
-	Values initializeValues(Thread current) {
-		return current.localValues = new Values();
-	}
+  Values initializeValues(Thread current) {
+    return current.localValues = new Values();
+  }
 	
-	Values values(Thread current) {
-		return current.localValues;
-	}
+  Values values(Thread current) {
+    return current.localValues;
+  }
 	
-	static class Values {
+  static class Values {
 		
-	}
+  }
 }
 
 {% endhighlight %}

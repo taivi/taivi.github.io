@@ -1,7 +1,6 @@
 ---
 
 title:	"ThreadLocal"
-date:	2015-10-24
 
 ---
 

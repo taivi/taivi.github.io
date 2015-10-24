@@ -1,7 +1,7 @@
 ---
 
-title:ThreadLocal
-date:2015年10月24日
+title:	"ThreadLocal"
+date:	2015-10-24
 
 ---
 
@@ -17,7 +17,7 @@ date:2015年10月24日
 
 
 ###源码结构
-{% highlight java %}
+{% highlight java linenos %}
 
 public class ThreadLocal<T> {
 

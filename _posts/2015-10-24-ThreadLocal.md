@@ -1,14 +1,15 @@
 ---
 
-title:	"ThreadLocal"
+title:	"Android应用层之ThreadLocal"
+categories:	Android
 
 ---
 
 
 ##SDK文档
 
-_Implements a thread-local storage, that is, a variable for which each thread has its own value.  
-All threads share the same ThreadLocal object, but each sees a different value when accessing it, and changes made by one thread do not affect the other threads. The implementation supports null values._
+> Implements a thread-local storage, that is, a variable for which each thread has its own value.  
+All threads share the same ThreadLocal object, but each sees a different value when accessing it, and changes made by one thread do not affect the other threads. The implementation supports null values.
 
 翻译过来的意思则是  
 __这个类实现了一个本地线程存储，即一个变量对于每个线程都有其自己的值。  

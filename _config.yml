@@ -6,6 +6,8 @@ more: "read more"
 url: "http://taiwei.me"
 baseurl: "" # comment out if in root directory
 
+markdown: kramdown  # markdown解析
+
 comments:
 #    isso: "comments.mysite.org"
 
